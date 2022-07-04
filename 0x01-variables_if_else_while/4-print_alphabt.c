@@ -14,6 +14,7 @@ if (a == 'q' || a == 'e')
 a++;
 continue;
 }
+}
 putchar(a);
 putchar('\n');
 return (0);
