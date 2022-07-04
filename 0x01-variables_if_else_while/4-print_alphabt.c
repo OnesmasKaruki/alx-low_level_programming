@@ -12,9 +12,8 @@ for (a = 'a'; a <= 'z'; a++)
 if (a == 'q' || a == 'e')
 {
 continue;
+puchtar(a);
 }
-putchar (a);
-putchar ('\n');
 }
 return (0);
 }
