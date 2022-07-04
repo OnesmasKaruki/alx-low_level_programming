@@ -13,7 +13,7 @@ if (a == 'q' || a == 'e')
 {
 continue;
 }
-puchtar(a);
+putchar(a);
 }
 return (0);
 }
