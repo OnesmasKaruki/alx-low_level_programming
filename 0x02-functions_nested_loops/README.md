@@ -1,1 +1,1 @@
- function that prints the sign of a number
+function that adds two integers and returns the result.
