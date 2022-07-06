@@ -15,7 +15,7 @@ void times_table(void)
 
 			if (j == 0)
 			{
-				_puchat(k + '0');
+				_puchar(k + '0');
 			}
 
 			if (k < 10 && j != 0)
