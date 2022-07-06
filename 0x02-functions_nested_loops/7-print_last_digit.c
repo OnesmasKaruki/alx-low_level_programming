@@ -10,8 +10,16 @@ int print_last_digit(int n)
 	int i;
 
 	if (n < 0)
-	n = -n;
-	i = n % 10;
-	_putchar('0' + i);
-	return (i);
+	{
+		n = -n;
+		i = n % 10;
+		_putchar(i + '0');
+		return (i);
+	}
+	else
+	{
+		i = n % 10;
+		_puchar(i + '0');
+		return (i);
+	}
 }
