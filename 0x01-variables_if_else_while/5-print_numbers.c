@@ -3,17 +3,17 @@
 /**
  * main -> main block
  *
- * @c: parameter
+ * @ch: parameter
  * Return: Always return 0
  */
 int main(void)
 {
-	char c = '0';
+	char ch = '0';
 
-	while (c <= '9')
+	while (ch <= '9')
 	{
-		putchar(c);
-		c++;
+		putchar(c + '0');
+		ch++;
 	}
 
 	putchar('\n');
