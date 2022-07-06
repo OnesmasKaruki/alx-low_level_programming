@@ -1,19 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - paramenter passed
+ * main -> main block
  *
- * @n: Parameter
- * Return: Always return n
+ * @c: parameter
+ * Return: Always return 0
  */
-int main()
+int main(void)
 {
-	int n;
+	char c = '0';
 
-	for (n = 0; n <= 10; n++)
+	while (c <= '9')
 	{
-		putchar(n);
+		putchar(c);
+		c++;
 	}
+
 	putchar('\n');
-	return (n);
+	return (0);
 }
