@@ -15,6 +15,7 @@ void print_to_98(int n)
 			_putchar(' ');
 			n--;
 		}
+
 		else
 		{
 			while (n < 98)
@@ -25,4 +26,5 @@ void print_to_98(int n)
 				n++;
 			}
 		}
+	}
 }
