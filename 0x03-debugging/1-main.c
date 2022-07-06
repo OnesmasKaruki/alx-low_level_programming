@@ -16,10 +16,10 @@ int main(void)
 	/**
 	* While (i < 10)
 	* {
-	* putchar(i)
+	* 	putchar(i);
 	* }
 	*/
-	printf("Infinite loop avoid! \\o/\n");
+	printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
 }
