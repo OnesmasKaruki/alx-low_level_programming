@@ -11,7 +11,8 @@ void times_table(void)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			k = j * i;
+			k = (j * i);
+
 			if (j == 0)
 			{
 				_puchat(k + '0');
