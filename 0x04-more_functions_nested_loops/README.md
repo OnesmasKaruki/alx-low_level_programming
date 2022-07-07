@@ -1,0 +1,1 @@
+Function that checks lowercase
