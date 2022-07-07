@@ -1,1 +1,1 @@
-Print numbers except 2 and d
+Print numbers 0 to 9 en times
