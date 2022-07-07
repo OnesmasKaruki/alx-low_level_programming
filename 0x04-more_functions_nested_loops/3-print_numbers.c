@@ -6,11 +6,13 @@
  * Return: void
  */
 
-void print_numbers(int n)
+void print_numbers(void)
 {
+	int n;
+
 	for (n = 0; n <= 9; n++)
 	{
 		_putchar(n);
 	}
-	return (n);
+	_putchar('\n');
 }
