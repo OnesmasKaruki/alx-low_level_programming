@@ -2,7 +2,6 @@
 
 /**
  * print_moast_numbers: - print all numbers except 2 and 4
- * @x: Number passed
  */
 
 void print_most_numbers(void)
