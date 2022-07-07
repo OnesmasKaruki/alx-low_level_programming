@@ -1,1 +1,1 @@
-Function that checks lowercase
+Multiply two numbers
