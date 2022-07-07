@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - print number from 0 to 9
- * @m: Number passed
  */
 
 void print_numbers(void)
