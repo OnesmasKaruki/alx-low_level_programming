@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * print_moast_numbers: - print all numbers except 2 and 4
+ * print_most_numbers - print all numbers except 2 and 4
  */
 
 void print_most_numbers(void)
 {
-	int x;
+	int xi;
 
-	for (x = 0; x < 10; x++)
+	for (xi = 0; xi < 10; xi++)
 	{
-		if (x != 2 && x != 4)
-			_putchar(x + '0');
+		if (xi != 2 && xi != 4)
+			_putchar(xi + '0');
 	}
 	_putchar('\n');
 }
