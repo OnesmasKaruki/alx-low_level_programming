@@ -3,17 +3,16 @@
 /**
  * main - main block
  *
- * @t: Parameter passed to function
  * Return: Always return 0
  */
 
-int main(char t)
+int main(void)
 {
-	t = '0';
+	char t = '0';
 
 	while (t <= 9)
 	{
-		putchar(t + '0');
+		putchar(t);
 		t++;
 	}
 	putchar('\n');
