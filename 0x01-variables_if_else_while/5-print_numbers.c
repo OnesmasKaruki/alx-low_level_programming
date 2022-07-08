@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 /**
- * main -> main block
+ * main - main block
  *
- * @ch: parameter
+ * @t: Parameter passed to function
  * Return: Always return 0
  */
-int main(void)
+
+int main(char t)
 {
-	char ch = '0';
+	t = '0';
 
-	while (ch <= '9')
+	while (t <= 9)
 	{
-		putchar(c + '0');
-		ch++;
+		putchar(t + '0');
+		t++;
 	}
-
 	putchar('\n');
 	return (0);
 }
