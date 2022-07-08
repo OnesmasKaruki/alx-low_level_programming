@@ -3,7 +3,6 @@
 /**
  * main -> Print alphabets in reverse order
  *
- * @n: Parameter passed
  * Return: Always return 0
  */
 int main(void)
