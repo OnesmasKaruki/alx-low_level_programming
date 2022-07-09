@@ -15,13 +15,13 @@ int main(void)
 
 	while (n <= 15)
 	{
-		putchar(n);
+		putchar(n + '0');
 		n++;
 	}
 
 	while (t <= 'f')
 	{
-		putchar(t);
+		putchar(t + '0');
 		t++;
 	}
 	putchar('\n');
