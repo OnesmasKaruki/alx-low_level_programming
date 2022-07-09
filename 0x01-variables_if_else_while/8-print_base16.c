@@ -10,18 +10,19 @@
 
 int main(void)
 {
-	char ch;
+	char c;
+	char h;
 
-	for (ch = '0'; ch <= '9'; ch++)
-
+	for (h = '0'; h <= '9'; h++)
+	q
 	{
-		putchar(ch);
-		ch++;
+		putchar(h);
+		h++;
 	}
-	for (ch = 'a'; ch <= 'f'; ch++)
+	for (c = 'a'; c <= 'f'; c++)
 	{
-		putchar(ch);
-		ch++;
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
 	return (0);
