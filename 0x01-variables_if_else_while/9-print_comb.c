@@ -16,8 +16,7 @@ int main(void)
 		putchar(48 + c);
 		if (c != '9')
 		{
-			putchar(',');
-			putchar(' ');
+			break;
 		}
 		c++;
 	}
