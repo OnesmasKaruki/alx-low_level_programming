@@ -10,19 +10,18 @@
 
 int main(void)
 {
-	char n = 0;
-	char t = 'a';
+	char ch;
 
-	while (n < 16)
+	for (ch = '0'; ch <= '9'; ch++)
+
 	{
-		putchar(n + '0');
-		n++;
+		putchar(ch);
+		ch++;
 	}
-
-	while (t <= 'f')
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar(t);
-		t++;
+		putchar(ch);
+		ch++;
 	}
 	putchar('\n');
 	return (0);
