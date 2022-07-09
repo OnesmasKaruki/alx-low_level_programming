@@ -14,15 +14,12 @@ int main(void)
 	char h;
 
 	for (h = '0'; h <= '9'; h++)
-	q
 	{
 		putchar(h);
-		h++;
 	}
 	for (c = 'a'; c <= 'f'; c++)
 	{
 		putchar(c);
-		c++;
 	}
 	putchar('\n');
 	return (0);
