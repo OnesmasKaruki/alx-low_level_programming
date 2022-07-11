@@ -1,19 +1,18 @@
 #include "main.h"
 
 /**
- * print_array - prints n ellement of array of integer
- * @n: Number of element of array
- * @a: Address
- * Return: void
+ * print_array - print_array - prints elements of an array of integers
+ * @a: Array of integers
+ * @n: Number of elements of the array
+ *
  */
 
 void print_array(int *a, int n)
 {
-	int i, n;
-
-	for (i = 0; i <= n; i++)
+	int j;
+	for (j= 0; j < n; j++)
 	{
-		_putchar(arr[i]);
-		_putchar('\n');
+		_putchar("%d", a[j]);
 	}
+	_putchar('\n');
 }
