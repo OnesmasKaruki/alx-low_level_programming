@@ -1,1 +1,1 @@
-Print every character of a string
+Done with task
