@@ -1,1 +1,1 @@
-Copy string pointed to by src
+Convert dtring onto integer
