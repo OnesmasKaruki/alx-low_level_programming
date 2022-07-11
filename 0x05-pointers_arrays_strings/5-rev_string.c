@@ -1,25 +1,26 @@
 #include "main.h"
 
 /**
- * rev_string - print string in reverse
- * @s: Pointer to be reversed
+ * rev_string - Print string in reverse order
+ * @s: Parameter to be reversed
  * Return: void
  */
 
 void rev_string(char *s)
 {
-	int len, i;
 	char temp;
+	int i, length_1 = 0, length_2 = 0;
 
-	for (len = 0; s[len] != '\0'; len++)
+	while (s[length_1] != '\0')
+		length_1++;
+
+	length_2 = length_1 - 1;
+
+	for (i = 0; i < length_1 / 2; i++)
 	{
-		i = 0;
-
-		while (len--)
-		{
-			temp = s[i];
-			temp = s[len - 1];
-			i++;
-		}
+		temp = s[i];
+		s[i] = s[length_2];
+		s[length_2] = temp;
+		length_2 - = 1;
 	}
 }
