@@ -13,11 +13,7 @@ void print_array(int *a, int n)
 
 	for (j = 0; j < n; j++)
 	{
-		_putchar('0' + a[j]);
-		if (j != (n - 1))
-		{
-			_putchar(",");
-		}
+		_putchar(a[j]);
 	}
 	_putchar('\n');
 }
