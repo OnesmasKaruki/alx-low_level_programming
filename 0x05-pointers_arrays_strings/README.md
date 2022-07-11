@@ -1,1 +1,1 @@
-Print a sring followed by a newline
+print string in revrse order
