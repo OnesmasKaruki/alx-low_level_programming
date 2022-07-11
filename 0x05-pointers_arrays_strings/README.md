@@ -1,1 +1,1 @@
-Done with task
+Function that prints half of a string
