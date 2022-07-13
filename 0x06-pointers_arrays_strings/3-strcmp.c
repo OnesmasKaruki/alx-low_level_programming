@@ -5,14 +5,14 @@
  * _strcmp - function to copy a string
  * @s1: First string
  * @s2: Second string
- * Return: String
+ * Return: result
  */
 
 int _strcmp(char *s1, char *s2)
 {
 	int result;
 
-	strcmp(s1, s2);
+	result = strcmp(s1, s2);
 
 	return (result);
 }
