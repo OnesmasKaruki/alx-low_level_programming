@@ -10,8 +10,6 @@
 char *cap_string(char *x)
 {
 	char spc[] = {32, 9, '\0', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
-
-	x = "sami, is;in learn programming africa";
 	int len = 13;
 	int a = 0, i;
 
