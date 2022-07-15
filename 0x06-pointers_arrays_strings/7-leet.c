@@ -6,7 +6,7 @@
  * Return: s transformed
  */
 
-har *leet(car *s)
+char *leet(char *s)
 {
 	int i, ii;
 	char s1[] = "aeot1";
