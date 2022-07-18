@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _memset - function fills the first n bytes of the
- * memory area pointed to by s with the constant byte b
+ * _memset - function fills the first n bytes
  * @s: pointer to put the constant
- * @n: max bytes to use
- * @b: constant byte
+ * @b: max bytes to use
+ * @n: constant byte
  *
  * Return: s
  */
