@@ -1,1 +1,1 @@
-Copy memory area
+Locate character in a string
