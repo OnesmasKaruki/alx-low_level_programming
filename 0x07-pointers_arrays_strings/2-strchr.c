@@ -21,9 +21,5 @@ char *_strchr(char *s, char c)
 			break;
 		}
 	}
-	if (s[i] == c)
-	{
-		p = &s[i];
-	}
 	return (p);
 }
