@@ -9,14 +9,11 @@
 
 int factorial(int n)
 {
-	int resss;
-	int i;
+	if (n < 0)
+		return (-1);
+	if (n == 0)
+		return (1);
+	return (n * factorial(n - 1));
 
-	ress = 1;
-	i = 1;
 
-	if (i <= n)
-		ress = ress * i;
-
-	return (ress);
 }
