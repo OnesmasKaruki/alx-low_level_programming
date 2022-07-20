@@ -1,15 +1,5 @@
 #include "main.h"
-
-/**
- * _sqrt_recursion - print sqaure root of int
- * @n: Input number
- * Return: int
- */
-
-int _sqrt_recursion(int n)
-{
-	return (square(n, 1));
-}
+#include <stdio.h>
 
 /**
  * square -vfind square root
@@ -18,16 +8,26 @@ int _sqrt_recursion(int n)
  * Return: int
  */
 
-int square(int n, val)
+int square(int n, int val)
 {
-	if (val *val == n)
+	if (val * val == n)
 	{
 		return (val);
 	}
-	else if (val *val < n)
+	else if (val * val < n)
 	{
 		return  (square(n, val + 1));
 	}
 	else
 		return (-1);
+}
+/**
+ * _sqrt_recursion - print ssquare root
+ * @n: Input number
+ * Return: int
+ */
+
+int _sqrt_recursion(int n)
+{
+	return (square(n, 1));
 }
