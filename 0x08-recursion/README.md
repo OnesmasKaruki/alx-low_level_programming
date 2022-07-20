@@ -1,1 +1,1 @@
-factorial to given number
+Powervalue of x
