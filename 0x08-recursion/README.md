@@ -1,1 +1,1 @@
-Return length of a string
+factorial to given number
