@@ -1,1 +1,1 @@
- program that prints the number of arguments passed into it.
+ program that multiplies two numbers
