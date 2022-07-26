@@ -1,1 +1,1 @@
-function that returns a pointer to a newly allocated space in memory
+ returned pointer should point to a newly allocated space
