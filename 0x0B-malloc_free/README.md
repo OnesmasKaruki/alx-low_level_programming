@@ -1,1 +1,1 @@
- returned pointer should point to a newly allocated space
+function that returns a pointer to a 2 dimensional array of integers
