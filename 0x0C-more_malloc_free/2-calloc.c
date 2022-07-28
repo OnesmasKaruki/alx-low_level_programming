@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * -calloc - allocate memory for array of nmemb
+ * _calloc - allocate memory for array of nmemb
  *  @nmemb: no.of element in array
  *  @size: size of ech element
  *
@@ -16,7 +16,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 	/* allocate memory for the element */
-	ptr = malloc(nmembb * size);
+	ptr = malloc(nmemb * size);
 /* if malloc fails(returns NULL), return NULL */
 	if (ptr == NULL)
 		return (NULL);
