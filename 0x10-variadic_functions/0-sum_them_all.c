@@ -9,14 +9,20 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int i, sum = 0;
-	va_list list;
+	unsigned int i, sum;
+	va_list ap;
 
-	va_start(list, n)
-		if (n != 0)
-			for (i = 0; i < n; i++)
-				sum += va_arg(list, unsigned int);
-	va_end(list);
+	if (n == 0)
+		return (0);
 
+	sum = 0;
+	for (i = 0; i < n; i++)
+		/**
+		 * va_arg() macro expands to an expression that has type
+		 * and value of the next argument in the call
+		 */
+		sum += va_arg(ap, int);
+	/*clean up*/
+	va_end(ap);
 	return (sum);
 }
