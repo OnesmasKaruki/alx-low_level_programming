@@ -1,1 +1,1 @@
-Convert binary numbers to unsigned int
+Print the binary representation
