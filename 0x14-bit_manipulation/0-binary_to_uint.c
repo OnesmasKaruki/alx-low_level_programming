@@ -10,25 +10,19 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int k = 2;
-	unsigned int i;
-	unsigned int c;
-	unsigned int len;
+	unsigned int value = 0;
 
 	if (b == NULL)
 		return (0);
-
-	len = strlen(b);
-
-	for (c = len; c > 0; c--)
+	while (*b != '\0')
 	{
-		if (b[c] != 48 || b[c] != 49)
+		value = value << 1;
+
+		if (*b != '1' && *b != '0')
 			return (0);
-		if (b[c] == '1')
-		{
-			i += atoi(b) * k;
-		}
-		k *= 2;
+		else
+			value = value | 1;
+		b++;
 	}
-	return (i);
+	return (value);
 }
