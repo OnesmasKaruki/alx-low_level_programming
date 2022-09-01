@@ -1,1 +1,0 @@
-Convert dtring onto integer
