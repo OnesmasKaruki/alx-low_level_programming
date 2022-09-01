@@ -1,1 +1,0 @@
-Print the binary representation
