@@ -2,17 +2,33 @@
 #include "main.h"
 
 /**
- * print_binar - printts binary representation of number
+ * print_binary - printts binary representation of number
  * @n: number to convert to binary
  *
  * Return: void
  */
-void print_binar(unsigned long int n)
+void print_binary(unsigned long int n)
 {
-	if (n == 0)
-		_putchar('0');
-	if (n > 1)
-		print_binary(n >> 1);
+	int i = 0, count, k, temp;
 
-	_putchar((n & 1) + '0');
+	if (n == 0)
+	{
+		printf("0");
+		return (0);
+	}
+
+	temp = n;
+	 while (temp != 0)
+	 {
+		 i++;
+		 temp = temp >> 1;
+	 }
+	 for (count = i - 1; count >= 0; count--)
+	 {
+		 k = n >> count;
+		  if (k & 1)
+			  printf("1");
+		  else
+			  printf("0");
+	 }
 }
