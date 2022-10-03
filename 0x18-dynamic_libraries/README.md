@@ -1,1 +1,1 @@
-Create dynamic library called liball.so
+Dynamic library containing functions from main.h
